@@ -24,6 +24,7 @@
 		101795F125BAE86E00352C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		101795F425BAE86E00352C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		101795F625BAE86E00352C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ACE93B25BED73400D160A0 /* Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Font.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +64,17 @@
 				101795F125BAE86E00352C8F /* Assets.xcassets */,
 				101795F325BAE86E00352C8F /* LaunchScreen.storyboard */,
 				101795F625BAE86E00352C8F /* Info.plist */,
+				10ACE93A25BED71800D160A0 /* Font */,
 			);
 			path = "Alihodzhina Gym";
+			sourceTree = "<group>";
+		};
+		10ACE93A25BED71800D160A0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				10ACE93B25BED73400D160A0 /* Font.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
