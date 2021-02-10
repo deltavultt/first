@@ -3,28 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		101795E925BAE86D00352C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101795E825BAE86D00352C8F /* AppDelegate.swift */; };
 		101795EB25BAE86D00352C8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101795EA25BAE86D00352C8F /* SceneDelegate.swift */; };
-		101795ED25BAE86D00352C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101795EC25BAE86D00352C8F /* ViewController.swift */; };
+		101795ED25BAE86D00352C8F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101795EC25BAE86D00352C8F /* SignInViewController.swift */; };
 		101795F025BAE86D00352C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101795EE25BAE86D00352C8F /* Main.storyboard */; };
 		101795F225BAE86E00352C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101795F125BAE86E00352C8F /* Assets.xcassets */; };
 		101795F525BAE86E00352C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101795F325BAE86E00352C8F /* LaunchScreen.storyboard */; };
+		103A061A25C171DB0022518E /* NDAstroneer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 103A061925C171DB0022518E /* NDAstroneer.ttf */; };
+		10DDEAA925C7D4A200641A58 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 10DDEAA825C7D4A200641A58 /* Alamofire */; };
+		10DDEAAD25C7D4C900641A58 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 10DDEAAC25C7D4C900641A58 /* SwiftyJSON */; };
+		10DDEAB025C7D7C900641A58 /* StepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEAAF25C7D7C800641A58 /* StepOneViewController.swift */; };
+		10DDEAB325C7D7E800641A58 /* StepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEAB225C7D7E800641A58 /* StepTwoViewController.swift */; };
+		10DDEAB625C7D7F500641A58 /* StepThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEAB525C7D7F500641A58 /* StepThreeViewController.swift */; };
+		10DDEAB925C7D80400641A58 /* StepFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEAB825C7D80400641A58 /* StepFourViewController.swift */; };
+		10DDEABC25C7D81800641A58 /* StepFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEABB25C7D81800641A58 /* StepFiveViewController.swift */; };
+		10EE26F125CD5F38000D7EC7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EE26F025CD5F38000D7EC7 /* SignUpViewController.swift */; };
+		10EE26FE25D1448B000D7EC7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EE26FD25D1448B000D7EC7 /* HomeViewController.swift */; };
+		10EE270225D14696000D7EC7 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EE270125D14696000D7EC7 /* HomeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		101795E525BAE86D00352C8F /* Alihodzhina Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alihodzhina Gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		101795E825BAE86D00352C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		101795EA25BAE86D00352C8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		101795EC25BAE86D00352C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		101795EC25BAE86D00352C8F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		101795EF25BAE86D00352C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		101795F125BAE86E00352C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		101795F425BAE86E00352C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		101795F625BAE86E00352C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10ACE93B25BED73400D160A0 /* Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Font.ttf; sourceTree = "<group>"; };
+		103A061925C171DB0022518E /* NDAstroneer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NDAstroneer.ttf; sourceTree = "<group>"; };
+		10DDEAAF25C7D7C800641A58 /* StepOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepOneViewController.swift; sourceTree = "<group>"; };
+		10DDEAB225C7D7E800641A58 /* StepTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTwoViewController.swift; sourceTree = "<group>"; };
+		10DDEAB525C7D7F500641A58 /* StepThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepThreeViewController.swift; sourceTree = "<group>"; };
+		10DDEAB825C7D80400641A58 /* StepFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepFourViewController.swift; sourceTree = "<group>"; };
+		10DDEABB25C7D81800641A58 /* StepFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepFiveViewController.swift; sourceTree = "<group>"; };
+		10EE26F025CD5F38000D7EC7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "Alihodzhina Gym/Authorization/SignUpViewController.swift"; sourceTree = SOURCE_ROOT; };
+		10EE26FD25D1448B000D7EC7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "Alihodzhina Gym/Home/HomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		10EE270125D14696000D7EC7 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DDEAAD25C7D4C900641A58 /* SwiftyJSON in Frameworks */,
+				10DDEAA925C7D4A200641A58 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +78,11 @@
 		101795E725BAE86D00352C8F /* Alihodzhina Gym */ = {
 			isa = PBXGroup;
 			children = (
+				10DB850325C28F6B00FF5ECF /* NewUser */,
+				10EE26F425D1438C000D7EC7 /* Authorization */,
 				101795E825BAE86D00352C8F /* AppDelegate.swift */,
+				10EE270425D146A0000D7EC7 /* Home */,
 				101795EA25BAE86D00352C8F /* SceneDelegate.swift */,
-				101795EC25BAE86D00352C8F /* ViewController.swift */,
 				101795EE25BAE86D00352C8F /* Main.storyboard */,
 				101795F125BAE86E00352C8F /* Assets.xcassets */,
 				101795F325BAE86E00352C8F /* LaunchScreen.storyboard */,
@@ -72,9 +95,39 @@
 		10ACE93A25BED71800D160A0 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				10ACE93B25BED73400D160A0 /* Font.ttf */,
+				103A061925C171DB0022518E /* NDAstroneer.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		10DB850325C28F6B00FF5ECF /* NewUser */ = {
+			isa = PBXGroup;
+			children = (
+				10DDEAAF25C7D7C800641A58 /* StepOneViewController.swift */,
+				10DDEAB225C7D7E800641A58 /* StepTwoViewController.swift */,
+				10DDEAB525C7D7F500641A58 /* StepThreeViewController.swift */,
+				10DDEAB825C7D80400641A58 /* StepFourViewController.swift */,
+				10DDEABB25C7D81800641A58 /* StepFiveViewController.swift */,
+			);
+			path = NewUser;
+			sourceTree = "<group>";
+		};
+		10EE26F425D1438C000D7EC7 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				10EE26F025CD5F38000D7EC7 /* SignUpViewController.swift */,
+				101795EC25BAE86D00352C8F /* SignInViewController.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		10EE270425D146A0000D7EC7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				10EE270125D14696000D7EC7 /* HomeCollectionViewCell.swift */,
+				10EE26FD25D1448B000D7EC7 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +146,10 @@
 			dependencies = (
 			);
 			name = "Alihodzhina Gym";
+			packageProductDependencies = (
+				10DDEAA825C7D4A200641A58 /* Alamofire */,
+				10DDEAAC25C7D4C900641A58 /* SwiftyJSON */,
+			);
 			productName = "Alihodzhina Gym";
 			productReference = 101795E525BAE86D00352C8F /* Alihodzhina Gym.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +177,10 @@
 				Base,
 			);
 			mainGroup = 101795DC25BAE86D00352C8F;
+			packageReferences = (
+				10DDEAA725C7D4A200641A58 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				10DDEAAB25C7D4C900641A58 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 101795E625BAE86D00352C8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +198,7 @@
 				101795F525BAE86E00352C8F /* LaunchScreen.storyboard in Resources */,
 				101795F225BAE86E00352C8F /* Assets.xcassets in Resources */,
 				101795F025BAE86D00352C8F /* Main.storyboard in Resources */,
+				103A061A25C171DB0022518E /* NDAstroneer.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +209,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				101795ED25BAE86D00352C8F /* ViewController.swift in Sources */,
+				101795ED25BAE86D00352C8F /* SignInViewController.swift in Sources */,
+				10DDEAB625C7D7F500641A58 /* StepThreeViewController.swift in Sources */,
 				101795E925BAE86D00352C8F /* AppDelegate.swift in Sources */,
 				101795EB25BAE86D00352C8F /* SceneDelegate.swift in Sources */,
+				10DDEABC25C7D81800641A58 /* StepFiveViewController.swift in Sources */,
+				10EE26FE25D1448B000D7EC7 /* HomeViewController.swift in Sources */,
+				10EE270225D14696000D7EC7 /* HomeCollectionViewCell.swift in Sources */,
+				10DDEAB325C7D7E800641A58 /* StepTwoViewController.swift in Sources */,
+				10EE26F125CD5F38000D7EC7 /* SignUpViewController.swift in Sources */,
+				10DDEAB925C7D80400641A58 /* StepFourViewController.swift in Sources */,
+				10DDEAB025C7D7C900641A58 /* StepOneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +419,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10DDEAA725C7D4A200641A58 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		10DDEAAB25C7D4C900641A58 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		10DDEAA825C7D4A200641A58 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10DDEAA725C7D4A200641A58 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		10DDEAAC25C7D4C900641A58 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10DDEAAB25C7D4C900641A58 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 101795DD25BAE86D00352C8F /* Project object */;
 }
